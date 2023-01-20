@@ -12,6 +12,7 @@ btn.onclick=()=>{
     let grau;
 
     if(nome.value !== '' && altura.value !== ''&& peso.value !== ''){
+        console.log(nome.value)
         if(resultado < 18.5){
             comentario.style.display ='block'
             grau = 'Abaixo do peso'
